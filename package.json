@@ -1,0 +1,16 @@
+{
+  "name": "frontend-odontolegal",
+  "version": "1.0.0",
+  "description": "Projeto frontend odontolegal",
+  "main": "",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/style.css --watch",
+    "start": "npm run build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.14"
+  },
+  "dependencies": {}
+}

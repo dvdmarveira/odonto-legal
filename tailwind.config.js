@@ -1,12 +1,27 @@
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./pages/**/*.html", // Para pegar todos os arquivos HTML na pasta "pages"
-    "./assets/styles/**/*.css", // Para pegar os arquivos CSS na pasta "styles"
-    "./scripts/**/*.css", // Para pegar todos os arquivos JavaScript na pasta "scripts"
-  ],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        74: "74px",
+      },
+      height: {
+        74: "74px",
+      },
+      colors: {
+        blue_primary: "#28385D",
+        blue_secondary: "#004C82",
+        gray_primary: "#8A879C",
+        gray_neutro: "#DEDDDD",
+        red_secondary: "#AB0535",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        lora: ["Lora", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

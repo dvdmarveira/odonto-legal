@@ -8,9 +8,12 @@
     "start": "npm run build"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.3",
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.14"
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.4.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@phosphor-icons/web": "^2.1.2",
+    "phosphor-icons": "^1.4.2"
+  }
 }

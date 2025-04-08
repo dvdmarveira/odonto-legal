@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peridental - Detalhes da Atividade</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/assets/styles/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-inter m-0 p-0">
+  <div class="flex flex-col h-screen">
+    <!-- Header -->
+    <header class="bg-[#004c82] text-white py-4 px-6 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="../assets/imgs/logo/peridentalLogo.svg" alt="Logo Peridental" class="w-74 h-74" />
+        <h1 class="text-2xl font-bold">Peridental</h1>
+      </div>
+      <div class="text-center">
+        <h2 class="text-xl font-bold">ACESSO DETALHADO</h2>
+      </div>
+      <div class="w-[200px]">
+        <!-- Espaço vazio para manter o alinhamento -->
+      </div>
+    </header>
+
+    <div class="flex flex-1">
+      <!-- Sidebar -->
+      <aside class="w-64 bg-white border-r border-gray-200 p-4">
+        <div class="flex justify-between items-center mb-2">
+          <div>
+            <p class="font-medium">Bem vindo, Carlos</p>
+            <p class="text-sm text-gray-600">#0000</p>
+          </div>
+          <button class="text-sm text-[#004c82] hover:underline transition-all duration-200">Sair</button>
+        </div>
+        <a href="#" class="text-sm text-gray-600 hover:text-[#004c82] block mb-4 transition-all duration-200">Alterar informações</a>
+
+        <nav class="mt-6">
+          <ul class="space-y-2">
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">Visão Geral</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">Gestão de Casos</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">Geração de Laudos Periciais</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 bg-blue-50 active-menu-item transition-all duration-200">
+              <a href="#" class="block text-[#004c82] font-medium menu-link">Gestão de Acesso</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">funcionalidade</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">funcionalidade</a>
+            </li>
+            <li class="border-b border-gray-200 py-2 hover:bg-blue-50 transition-all duration-200">
+              <a href="#" class="block hover:text-[#004c82] transition-colors menu-link">funcionalidade</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="flex-1 flex flex-col bg-[#fbfbfb]">
+        <!-- Content -->
+        <div class="flex-1 p-6">
+          <!-- Search Bar -->
+          <div class="relative mb-6">
+            <div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+              <i class="ph ph-magnifying-glass text-gray_primary"></i>
+            </div>
+            <input type="text" placeholder="Pesquisar por nome e ID." class="w-full pl-10 pr-4 py-3 border border-[#d9d9d9] rounded-full focus:outline-none focus:ring-1 focus:ring-[#004C82] focus:border-transparent bg-white transition-all duration-200">
+          </div>
+
+          <!-- Detalhes da Atividade -->
+          <div class="bg-white rounded-lg border border-blue_secondary shadow-sm mb-8 relative">
+            <!-- Botão de fechar -->
+            <button class="absolute top-4 right-4 bg-[#ab0535] text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#950530] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#ab0535]">
+              <i class="ph ph-x"></i>
+            </button>
+
+            <!-- Cabeçalho com informações -->
+            <div class="p-7">
+              <div class="flex justify-between">
+                <!-- Coluna da esquerda -->
+                <div>
+                  <p class="mb-2"><span class="font-semibold">Atividade:</span> Fotografias intraorais e radiografias odontológicas.</p>
+                  <p class="mb-2"><span class="font-semibold">Data e hora de abertura:</span> 16/05/2025.</p>
+                  <p class="mb-2"><span class="font-semibold">Paciente:</span> Juliana Maria Gonçalves</p>
+                  <p class="mb-2"><span class="font-semibold">Local do registro:</span> Clínica Odontológica Smiller, Rua Peixoto Melo, N.º34, CEP: 60411-98.</p>
+                  <p><span class="font-semibold">N.º do prontuário:</span> 3875648200</p>
+                </div>
+
+                <!-- Coluna da direita -->
+                <div class="text-right mr-44">
+                  <p class="mb-2 mr-44"><span class="font-semibold">H:</span> 10:34:45</p>
+                  <p class="mr-44"><span class="font-semibold">Sexo:</span> F</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Linha divisória -->
+            <hr class="border-gray-300 mx-6">
+
+            <!-- Conteúdo principal -->
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-center mb-4">Fotografias intraorais e radiografias odontológicas.</h3>
+
+              <p class="text-center mb-8">
+                Foram solicitadas radiografias periapicais dos dentes afetados para avaliar a extensão da cárie e possível envolvimento da polpa dentária. A radiografia revelou lesões de cárie em estágio moderado, com comprometimento da dentina, mas sem sinais claros de infecção pulpar.
+              </p>
+
+              <!-- Imagens de radiografias -->
+              <div class="grid grid-cols-3 gap-6 mt-8">
+                <div class="flex flex-col items-center">
+                  <div class="relative bg-gray-100 rounded-lg overflow-hidden mb-2">
+                    <img src="../assets/imgs/photos/arcadainferior.svg" alt="Arca Dentária Inferior" class="w-full h-auto">
+                    <button class="absolute bottom-2 right-2 bg-white rounded-full p-1 shadow hover:bg-gray-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#004c82]">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#004c82]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                      </svg>
+                      <!-- <i class="ph ph-magnifying-glass h-5 w-5 text-blue_secondary"></i> -->
+                    </button>
+                  </div>
+                  <p class="text-center font-medium">Arca Dentária Inferior</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                  <div class="relative bg-gray-100 rounded-lg overflow-hidden mb-2">
+                    <img src="../assets/imgs/photos/arcadacompleta.svg" alt="Arca Dentária Completa" class="w-full h-auto">
+                    <button class="absolute bottom-2 right-2 bg-white rounded-full p-1 shadow hover:bg-gray-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#004c82]">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#004c82]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="text-center font-medium">Arca Dentária Completa</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                  <div class="relative bg-gray-100 rounded-lg overflow-hidden mb-2">
+                    <img src="../assets/imgs/photos/incisivoslateraisinferiores.svg" alt="Incisivos laterais inferiores" class="w-full h-auto">
+                    <button class="absolute bottom-2 right-2 bg-white rounded-full p-1 shadow hover:bg-gray-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#004c82]">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#004c82]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="text-center font-medium">Incisivos laterais inferiores</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Acesso - Peridental</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/assets/styles/style.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-[#004c82] text-white py-4 px-6 flex justify-between items-center">
+    <div class="flex items-center">
+      <img src="../assets/imgs/logo/peridentalLogo.svg" alt="Logo Peridental" class="w-74 h-74" />
+      <h1 class="text-2xl font-bold">Peridental</h1>
+    </div>
+    <div class="text-center">
+      <h2 class="text-xl font-bold">GESTÃO DE ACESSO</h2>
+    </div>
+    <div class="w-[200px]">
+      <!-- Espaço vazio para manter o alinhamento -->
+    </div>
+  </header>
+
+  <div class="flex flex-1">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white border-r border-gray-200 p-4">
+      <div class="flex justify-between items-center mb-2">
+        <div>
+          <p class="font-medium">Bem vindo, Carlos</p>
+          <p class="text-sm text-gray-600">#0000</p>
+        </div>
+        <button class="text-sm text-[#004c82] hover:underline">Sair</button>
+      </div>
+      <a href="#" class="text-sm text-gray-600 hover:text-[#004c82] block mb-4">Alterar informações</a>
+
+      <nav class="mt-6">
+        <ul class="space-y-2">
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">Visão Geral</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">Gestão de Casos</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">Geração de Laudos Periciais</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">funcionalidade</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">funcionalidade</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">funcionalidade</a>
+          </li>
+          <li class="border-b border-gray-200 py-2">
+            <a href="#" class="block hover:text-[#004c82]">funcionalidade</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+      <!-- Search Bar -->
+      <div class="mb-8">
+        <div class="relative">
+          <input type="text" class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:border-[#004c82]" placeholder="Pesquisar por nome e ID.">
+          <div class="absolute left-3 top-1/2 transform -translate-y-1/2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- User Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- User Card 1 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Leonardo Teixeira</h3>
+          <p class="text-gray-600 mb-4">Administrador</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 2 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Ana Clara</h3>
+          <p class="text-gray-600 mb-4">Administrador</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 3 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Ricardo Lima</h3>
+          <p class="text-gray-600 mb-4">Perito</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 4 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Luana Alves</h3>
+          <p class="text-gray-600 mb-4">Perito</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 5 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Martha Silva</h3>
+          <p class="text-gray-600 mb-4">Perito</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 6 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Pedro Henrique</h3>
+          <p class="text-gray-600 mb-4">Assistente</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+
+        <!-- User Card 7 -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-center">
+          <div class="relative mb-4">
+            <div class="bg-gray-200 w-20 h-20 rounded-md flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <button class="absolute top-0 right-0 bg-white rounded-full p-1 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-bold text-lg mb-1">Oliver Oliveira</h3>
+          <p class="text-gray-600 mb-4">Assistente</p>
+          <button class="bg-[#ab0535] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-colors">
+            Ver mais
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
